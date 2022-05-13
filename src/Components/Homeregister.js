@@ -1,8 +1,16 @@
-const Homeregister = () => {
+import { Link } from 'react-router-dom'
+import { AiFillCloseCircle } from "react-icons/ai";
+
+const Homeregister = (props) => {
+    const {openlogin, openreg, closeall}=props;
+
     return (
         <div className="login">
             <div className="Card">
 
+                <div className="close" onClick={closeall}>
+                    <AiFillCloseCircle />
+                </div>
                 <p className="welcome">SIGN UP</p>
                 <h1 className="loginto">create an account to continue</h1>
                 <br></br>
@@ -22,9 +30,9 @@ const Homeregister = () => {
                 </div>
                 <input type="text" id="password" name="password" className="logintext" placeholder="Choose a strong password"></input>
 
-                <button className="btn1">Continue</button>
+                <button className="btn1" onClick={closeall}>Continue</button>
 
-                <p className="welcome left">Already have an account?<span className="label cur">Login →</span> </p>
+                <p className="welcome left" onClick={openlogin}>Already have an account?<span className="label cur">Login →</span> </p>
 
 
 

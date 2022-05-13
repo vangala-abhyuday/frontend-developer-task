@@ -8,21 +8,40 @@
     justify-content: center;
 } */
 
-.login {
+.firstlogin {
     text-align: center;
     width: 100%;
     background-color: #131319;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+    position: absolute;
+    left: 90%;
+    color: white;
+}
+
 .Card {
+    position: relative;
+    text-align: center;
     margin: auto;
     width: 463px;
-    left: 488px;
-    top: 284px;
     border-radius: 8px;
     background: #27292D;
     padding: 30px;
@@ -131,6 +150,24 @@
     min-height: 100vh;
 }
 
+.hometext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7F8084;
+}
+
+.hometext2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7F8084;
+}
+
 .container2 {
     background-color: #131319;
     padding: 30px;
@@ -153,6 +190,7 @@
     border-radius: 8px;
     padding: 13px;
     display: flex;
+    margin-bottom: 8px;
 }
 
 .profile-content {
@@ -168,6 +206,22 @@
     border-radius: 25px;
     font-size: 30px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    width: 98px;
+    height: 48px;
+    border-radius: 28px;
+    font-size: 18px;
+    background: #27292D;
+    padding: auto;
 }
 
 .image1 {
@@ -195,7 +249,7 @@
     color: #FFFFFF;
     cursor: pointer;
     margin-bottom: 10px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .cur {

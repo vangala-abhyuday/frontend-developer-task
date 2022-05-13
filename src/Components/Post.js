@@ -9,7 +9,7 @@ const Post = () => {
                         <div className="image image1 cur"></div>
                         <div className="content">
                             <span className="cur">Theresa Webb</span><br />
-                            <span>5mins ago</span>
+                            <span className="hometext2">5mins ago</span>
                         </div>
                     </div>
 
@@ -19,12 +19,12 @@ const Post = () => {
 
 
                 <div className="card-content">
-                    <div className="image"><div>👋</div></div>
-                    <div className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    <div className="emoji"><div>👋</div></div>
+                    <div className="content hometext">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
                 </div>
 
 
-                <div className="cur">24 comments</div>
+                <div className="cur hometext2">24 comments</div>
             </div>
 
 
@@ -35,7 +35,7 @@ const Post = () => {
                         <div className="image image2 cur"></div>
                         <div className="content">
                             <span className="cur">Marvin McKinney</span><br />
-                            <span>8mins ago • Edited</span>
+                            <span className="hometext2">8mins ago • Edited</span>
                         </div>
                     </div>
 
@@ -45,12 +45,12 @@ const Post = () => {
 
 
                 <div className="card-content">
-                    <div className="image"><div>😞</div></div>
-                    <div className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    <div className="emoji">😞</div>
+                    <div className="content hometext">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
                 </div>
 
 
-                <div className="cur">24 comments</div>
+                <div className="cur hometext2">40 comments</div>
             </div>
 
         </>

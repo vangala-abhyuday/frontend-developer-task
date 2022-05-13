@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 const Login = () => {
     return (
-        <div className="login">
+        <div className="firstlogin">
             
             <div className="Card">
 

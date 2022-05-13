@@ -14,11 +14,6 @@ function App() {
       <Route path="/" element={<Login />} />
       <Route path="/home" element={<Home />} />
       </Routes>
-      {/* <Link to="/"></Link>
-      <Link to="/"></Link> */}
-      {/* <Login />
-      <Home /> 
-      <Register /> */}
     </div>
   );
 }

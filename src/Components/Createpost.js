@@ -6,8 +6,8 @@ const Createpost = () => {
         <div className="post-card">
             <p className="card-title">Create post</p>
             <div className="card-content">
-                <div className="image"></div>
-                <div className="content">How are you feeling today?</div>
+                <div className="image"  style={{fontSize: 16,}} >💬</div>
+                <div className="content hometext">How are you feeling today?</div>
             </div>
             <div className="d-flex flex-row justify-content-end">
                 <button className="btn2">Post</button>

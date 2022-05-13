@@ -30,27 +30,24 @@ const Home = () => {
                 <div className="container2" >
                     <h1>Hello Jane</h1>
                     <p className="hometext">How are you doing today? Would you like to share something with the community 🤗</p>
-                    <br/>
+                    <br />
                     <div onClick={openreg}>
                         <Createpost />
                         <Post />
                     </div>
-
-                    {showlogin && <Homelogin 
-                        openlogin={openlogin}
-                        openreg={openreg}
-                        closeall={closeall}
-                    />}
-
-                    {showreg && <Homeregister
-                        openlogin={openlogin}
-                        openreg={openreg}
-                        closeall={closeall}
-                    />}
-
-
-
                 </div>
+
+                {showlogin && <Homelogin
+                    openlogin={openlogin}
+                    openreg={openreg}
+                    closeall={closeall}
+                />}
+
+                {showreg && <Homeregister
+                    openlogin={openlogin}
+                    openreg={openreg}
+                    closeall={closeall}
+                />}
 
             </div>
 
